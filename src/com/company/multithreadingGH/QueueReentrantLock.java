@@ -1,4 +1,4 @@
-package com.company;
+package com.company.multithreadingGH;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

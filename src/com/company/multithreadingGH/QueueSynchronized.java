@@ -1,4 +1,4 @@
-package com.company;
+package com.company.multithreadingGH;
 
 //простейший многопоточный ограниченный буфер с использованием synchronized
 public class QueueSynchronized<T> {
@@ -9,7 +9,7 @@ public class QueueSynchronized<T> {
     private int out;
     private int in;
 
-    private final Object isEmplty = new Object();
+    private final Object isEmpty = new Object();
     private final Object isFull = new Object();
 
     public QueueSynchronized(final int capacity) {
@@ -29,9 +29,9 @@ public class QueueSynchronized<T> {
     @SuppressWarnings("unchecked")
     public T get() throws InterruptedException {
         if (size == 0) {
-            synchronized (isEmplty) {
+            synchronized (isEmpty) {
                 while (size < 1) {
-                    isEmplty.wait();
+                    isEmpty.wait();
                 }
             }
         }
@@ -69,8 +69,8 @@ public class QueueSynchronized<T> {
             }
             size++;
         }
-        synchronized (isEmplty) {
-            isEmplty.notify();
+        synchronized (isEmpty) {
+            isEmpty.notify();
         }
         return this;
     }
