@@ -1,4 +1,5 @@
 package com.company.multithreadingGH;
+
 import java.util.Arrays;
 
 //минимальный неблокирующий ArrayList
