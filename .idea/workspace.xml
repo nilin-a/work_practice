@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c89fa2c-26ae-4f64-acc0-052c0dff4170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/baeldung/concurrency/PracticeCompletableFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MTPPMasterclass/ThreadManagement/PrioritiesAndStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MTPPMasterclass/ThreadManagement/ThreadCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MTPPMasterclass/ThreadManagement/ThreadGroupsPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,10 @@
   "keyToString": {
     "Application.MyCallable.executor": "Run",
     "Application.PracticeCompletableFuture.executor": "Run",
+    "Application.PrioritiesAndStates.executor": "Run",
     "Application.SimpleThreadPool.executor": "Run",
+    "Application.ThreadCreation.executor": "Run",
+    "Application.ThreadGroupsPlay.executor": "Run",
     "Application.WorkerPool.executor": "Run",
     "Application.task68.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -52,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PracticeCompletableFuture">
+  <component name="RunManager" selected="Application.ThreadGroupsPlay">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="work_practice" />
@@ -82,9 +87,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrioritiesAndStates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MTPPMasterclass.ThreadManagement.PrioritiesAndStates" />
+      <module name="work_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.MTPPMasterclass.ThreadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleThreadPool" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.multithreading.threadPoolExample.SimpleThreadPool" />
       <module name="work_practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MTPPMasterclass.ThreadManagement.ThreadCreation" />
+      <module name="work_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.MTPPMasterclass.ThreadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadGroupsPlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MTPPMasterclass.ThreadManagement.ThreadGroupsPlay" />
+      <module name="work_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.MTPPMasterclass.ThreadManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,11 +152,17 @@
       <item itemvalue="Application.SimpleThreadPool" />
       <item itemvalue="Application.WorkerPool" />
       <item itemvalue="Application.MyCallable" />
+      <item itemvalue="Application.PrioritiesAndStates" />
+      <item itemvalue="Application.ThreadCreation" />
+      <item itemvalue="Application.ThreadGroupsPlay" />
       <item itemvalue="Application.PracticeCompletableFuture" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadGroupsPlay" />
+        <item itemvalue="Application.PrioritiesAndStates" />
+        <item itemvalue="Application.ThreadCreation" />
         <item itemvalue="Application.PracticeCompletableFuture" />
       </list>
     </recent_temporary>
@@ -145,7 +195,8 @@
       <workItem from="1706708993018" duration="620000" />
       <workItem from="1706777750667" duration="1037000" />
       <workItem from="1706789770606" duration="598000" />
-      <workItem from="1706857552933" duration="6775000" />
+      <workItem from="1706857552933" duration="7546000" />
+      <workItem from="1706880286765" duration="3113000" />
     </task>
     <servers />
   </component>
